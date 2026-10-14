@@ -1,43 +1,47 @@
-# Food Mart Retail Analysis
+# Food Mart Retail Analysis (Excel Data Model)
 
-Excel-based analysis of retail sales data for a food mart, turning raw transactions into summaries and charts that support business decisions.
+> 🌐 Part of my data analytics portfolio: [YOUR-PORTFOLIO-URL](https://YOUR-PORTFOLIO-URL/projects/food-mart-retail) · 👤 [More projects on my GitHub](https://github.com/mazenabushama0-arch)
 
-## Overview
+An Excel analytics workbook built on a Power Pivot data model, with DAX measures, PivotTables, PivotCharts, and slicers, turning food mart retail data into sales, profit, product, customer, and regional views.
 
-- **Goal:** [TODO: one sentence, e.g. understand sales by product, store, and period]
-- **Tool:** Microsoft Excel
-- **Deliverable:** `Food Mart Retail.xlsx`
+## What it answers
 
-## Dataset
+- How do sales, costs, profit, and profit margin move by month, quarter, and year?
+- Which products and brands sell best and earn the most profit?
+- Who are the customers: gender, education, income, city, country, children, and membership card?
+- Which regions and districts lead on sales and profit?
 
-- **Source:** [TODO: where the data comes from]
-- **Period covered:** [TODO]
-- **Main fields:** [TODO: e.g. date, product, category, store, quantity, revenue]
-
-## What's inside
+## Workbook structure
 
 | Sheet | Purpose |
 |---|---|
-| [TODO: sheet name] | [TODO: raw data / cleaned data] |
-| [TODO: sheet name] | [TODO: pivot tables / summary] |
-| [TODO: sheet name] | [TODO: charts / dashboard] |
+| **Sheet** | PivotTables from the data model that feed every chart |
+| **KPI'S** | KPI cards (Total Sales, Total Costs, Profit, Profit Margin %, customer count), Profit by Month, Sales by Month |
+| **Customers** | Customer analysis: city, gender, education, income, and member card (Golden Sales) |
+| **Product-Date** | Product and brand performance (Top 10 by Brand, Product Profit) and sales by country |
 
-## Analysis performed
+## Data model & measures
 
-- [TODO: data cleaning steps]
-- [TODO: PivotTables / formulas used]
-- [TODO: charts or dashboard built]
+- **Dimensions:** Customers, Products, Region, Calendar
+- **DAX measures:** `Total Sales`, `Total Costs`, `Profit`, `Profit Margin %`, `INV`, distinct customer count
+- **Interactivity:** slicers for sales region, quarter, year, month, and member card
 
-## Key insights
+## Tech stack
 
-1. [TODO: finding with a number]
-2. [TODO: finding with a number]
-3. [TODO: recommendation]
+- Microsoft Excel (Power Pivot / Data Model)
+- DAX
+- PivotTables, PivotCharts, Slicers
 
-## How to use
+## How to open
 
-Download `Food Mart Retail.xlsx` and open it in Excel. Enable macros only if the workbook includes any.
+Download `Food Mart Retail.xlsx` and open it in desktop Excel. The slicers and data model need desktop Excel for Windows.
+
+<!-- Add screenshots to an /images folder, then uncomment:
+## Screenshots
+![KPI dashboard](images/kpis.png)
+![Customers](images/customers.png)
+-->
 
 ## Author
 
-**Mazen Mohsen** · [LinkedIn](https://linkedin.com/in/mazen-abushama-934246398)
+**Mazen Mohsen** · Senior Data & Merchandise Analyst · [LinkedIn](https://linkedin.com/in/mazen-abushama-934246398)
