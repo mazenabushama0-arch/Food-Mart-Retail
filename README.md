@@ -1,6 +1,6 @@
 # Food Mart Retail Analysis (Excel Data Model)
 
-> 🌐 Part of my data analytics portfolio: [YOUR-PORTFOLIO-URL](https://YOUR-PORTFOLIO-URL/projects/food-mart-retail) · 👤 [More projects on my GitHub](https://github.com/mazenabushama0-arch)
+> 🌐 Part of my data analytics portfolio: [My-PORTFOLIO](https://mazenabushama0-arch.github.io/Portfolio/) · 👤 [More projects on my GitHub](https://github.com/mazenabushama0-arch)
 
 An Excel analytics workbook built on a Power Pivot data model, with DAX measures, PivotTables, PivotCharts, and slicers, turning food mart retail data into sales, profit, product, customer, and regional views.
 
